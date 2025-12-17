@@ -1,4 +1,5 @@
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'Kerflufflegrid - Beat the Clock Word Puzzle',
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="antialiased">
         {children}
+        <Analytics />
       </body>
     </html>
   );
