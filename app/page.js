@@ -2,6 +2,16 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import puzzles, { getRandomPuzzle } from './puzzles';
+const victoryMessages = [
+  "Right on!! You beat the Kerflufflegrid!",
+  "Nailed it! You're a word wizard!",
+  "Boom! Nothing can stop you!",
+  "Crushed it! Time to go again?",
+  "Victory is yours! Well played!",
+  "You're on fire! Amazing work!",
+  "Word master status: confirmed!",
+  "Too quick! The grid never stood a chance!",
+];
 
 export default function Kerflufflegrid() {
   // Game states
@@ -10,6 +20,7 @@ export default function Kerflufflegrid() {
   const [selectedTime, setSelectedTime] = useState(null);
   const [timeRemaining, setTimeRemaining] = useState(0);
   const [timerActive, setTimerActive] = useState(false);
+  const [victoryMessage, setVictoryMessage] = useState('');
   
   // Modal states
   const [showHowToPlay, setShowHowToPlay] = useState(false);
@@ -275,7 +286,9 @@ export default function Kerflufflegrid() {
       
       return newStats;
     });
-    
+   if (won) {
+      setVictoryMessage(victoryMessages[Math.floor(Math.random() * victoryMessages.length)]);
+    } 
     setGameState(won ? 'won' : 'lost');
   };
 
@@ -858,9 +871,9 @@ export default function Kerflufflegrid() {
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent'
               }}>
-                Right on!!
+                {victoryMessage}
               </h2>
-              <p className="text-amber-300 text-lg">You beat the Kerflufflegrid!</p>
+              
             </div>
 
             <div className="mb-4 p-5 rounded-2xl pulse-glow" style={{
