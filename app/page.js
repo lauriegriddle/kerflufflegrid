@@ -995,7 +995,8 @@ export default function Kerflufflegrid() {
 
         {/* Footer */}
         <div className="mt-6 text-center">
-          <div className="flex justify-center gap-4 text-xs text-slate-500 mb-2">
+          <a href="https://lettergriddle.com/games" className="text-amber-400 hover:text-amber-300 transition-colors text-sm font-medium">🥞 Letter Griddle Games</a>
+          <div className="flex justify-center gap-4 text-xs text-slate-500 mb-2 mt-2">
             <a href="/privacy" className="hover:text-slate-400">Privacy</a>
             <span>•</span>
             <a href="/terms" className="hover:text-slate-400">Terms</a>
