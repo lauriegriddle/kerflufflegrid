@@ -331,7 +331,194 @@ const puzzles = [
       { word: "CONSOLE", hint: "Home gaming device that connects to a TV" },
       { word: "JOYSTICK", hint: "Hand-held controller used to navigate games" }
     ]
-  }
+  },
+  {
+  category: "New Beginnings",
+  emojis: ['🎆', '✨', '🌅', '🌱', '🚀', '📅', '🎊', '💫'],
+  words: [
+    { word: "ANEW", hint: "Starting over again, fresh and renewed" },
+    { word: "FRESH", hint: "Clean and new, like the start of a new year" },
+    { word: "DREAMY", hint: "Full of hopes and imaginative visions for the future" },
+    { word: "JOURNEY", hint: "A long trip or path of personal growth and discovery" },
+    { word: "ADVENTURE", hint: "An exciting experience waiting to unfold" }
+  ]
+},
+{
+  category: "Buffet",
+  emojis: ['🍽️', '🥗', '🍖', '🧁', '🍷', '🥐', '🍝', '🫕'],
+  words: [
+    { word: "DINE", hint: "To eat a meal, especially in a formal or elegant setting" },
+    { word: "FEAST", hint: "A large, elaborate meal celebrating a special occasion" },
+    { word: "SUPPER", hint: "An evening meal, often lighter or more casual than dinner" },
+    { word: "DESSERT", hint: "The sweet course served at the end of a meal" },
+    { word: "BEVERAGE", hint: "Any drink, from water to wine to coffee" }
+  ]
+},
+{
+  category: "Deserts",
+  emojis: ['🏜️', '🌵', '☀️', '🐪', '🦂', '💀', '🏝️', '🌡️'],
+  words: [
+    { word: "ARID", hint: "Extremely dry, with little or no rainfall" },
+    { word: "OASIS", hint: "A fertile green spot in a desert where water is found" },
+    { word: "CACTUS", hint: "A spiny plant that thrives in dry, hot environments" },
+    { word: "DROUGHT", hint: "A prolonged period of abnormally low rainfall" },
+    { word: "DESOLATE", hint: "Barren, empty, and lifeless landscape" }
+  ]
+},
+{
+  category: "Cereal",
+  emojis: ['🥣', '🥛', '🌾', '🥄', '🍯', '🫐', '🍌', '☀️'],
+  words: [
+    { word: "OATS", hint: "A hearty grain often eaten as oatmeal or in granola" },
+    { word: "WHEAT", hint: "A golden grain used to make bread and pasta" },
+    { word: "BARLEY", hint: "An ancient grain used in soups, stews, and brewing beer" },
+    { word: "FROSTED", hint: "Coated with a sweet, sugary glaze on breakfast flakes" },
+    { word: "CINNAMON", hint: "A warm, sweet spice that flavors many breakfast cereals" }
+  ]
+},
+{
+  category: "Ensemble",
+  emojis: ['👗', '👔', '👠', '🧥', '👒', '💄', '👜', '✨'],
+  words: [
+    { word: "GARB", hint: "Clothing or dress, especially of a distinctive style" },
+    { word: "COVER", hint: "Something worn to protect or conceal the body" },
+    { word: "OUTFIT", hint: "A coordinated set of clothes worn together" },
+    { word: "GARMENT", hint: "Any article of clothing, from shirts to pants" },
+    { word: "COSTUME", hint: "Special attire worn for performances or occasions" }
+  ]
+},
+{
+  category: "Backpack",
+  emojis: ['🎒', '🏕️', '🥾', '🧭', '⛺', '🗺️', '🚶', '🌲'],
+  words: [
+    { word: "TOTE", hint: "A large bag for carrying items, often open at the top" },
+    { word: "STRAP", hint: "A strip of material used to secure or carry something" },
+    { word: "POCKET", hint: "A small pouch sewn into a bag for storing items" },
+    { word: "CAMPING", hint: "An outdoor activity where backpacks are essential gear" },
+    { word: "CARRYALL", hint: "A large bag or container for holding many things" }
+  ]
+},
+{
+  category: "Water💦",
+  emojis: ['💧', '🌊', '🚿', '☔', '🏊', '💦', '🌧️', '🐟'],
+  words: [
+    { word: "FLOW", hint: "To move steadily and continuously in a current" },
+    { word: "VAPOR", hint: "Water in its gaseous form, like steam or mist" },
+    { word: "STREAM", hint: "A small, narrow river flowing through the land" },
+    { word: "TRICKLE", hint: "A thin, slow flow of liquid" },
+    { word: "DOWNPOUR", hint: "A heavy, sudden rainfall" }
+  ]
+},
+{
+  category: "Road Trip",
+  emojis: ['🚗', '🛣️', '⛽', '🗺️', '📍', '🌄', '🎵', '🧳'],
+  words: [
+    { word: "ROAM", hint: "To travel aimlessly from place to place" },
+    { word: "JAUNT", hint: "A short journey taken for pleasure" },
+    { word: "WANDER", hint: "To walk or travel without a fixed destination" },
+    { word: "MIGRATE", hint: "To move from one region to another, often seasonally" },
+    { word: "NAVIGATE", hint: "To plan and direct the route of a journey" }
+  ]
+},
+{
+  category: "Weather",
+  emojis: ['🌤️', '🌧️', '⛈️', '🌈', '❄️', '🌪️', '☀️', '🌡️'],
+  words: [
+    { word: "WIND", hint: "Moving air caused by differences in atmospheric pressure" },
+    { word: "CLOUD", hint: "A visible mass of water droplets floating in the sky" },
+    { word: "REPORT", hint: "A forecast telling you what conditions to expect" },
+    { word: "CLIMATE", hint: "The long-term pattern of weather in a region" },
+    { word: "SUNSHINE", hint: "Bright, warm light from the sun on a clear day" }
+  ]
+},
+{
+  category: "Lunch",
+  emojis: ['🥪', '🥗', '🍜', '🕛', '🥤', '🍎', '🥡', '☕'],
+  words: [
+    { word: "SOUP", hint: "A warm liquid dish often served in a bowl with a spoon" },
+    { word: "SALAD", hint: "A mix of leafy greens and vegetables, often with dressing" },
+    { word: "MIDDAY", hint: "The time of day when lunch is typically eaten" },
+    { word: "POTLUCK", hint: "A meal where everyone brings a dish to share" },
+    { word: "SANDWICH", hint: "Fillings placed between two slices of bread" }
+  ]
+},
+{
+  category: "Rock On!",
+  emojis: ['🎸', '🤘', '🎤', '🥁', '🔊', '🎵', '⚡', '🖤'],
+  words: [
+    { word: "PUNK", hint: "A rebellious rock genre known for fast tempos and anti-establishment lyrics" },
+    { word: "METAL", hint: "Heavy rock genre featuring loud, distorted guitars and powerful drums" },
+    { word: "CLASSIC", hint: "Timeless rock from the 60s and 70s that never goes out of style" },
+    { word: "CONCERT", hint: "A live music performance where fans gather to see their favorite bands" },
+    { word: "SONGBIRD", hint: "A singer with a naturally beautiful, melodic voice" }
+  ]
+},
+{
+  category: "Spices",
+  emojis: ['🧂', '🌶️', '🧄', '🌿', '✨', '🫚', '🍂', '🥣'],
+  words: [
+    { word: "SALT", hint: "Essential seasoning that enhances flavor in almost every dish" },
+    { word: "THYME", hint: "Fragrant herb with tiny leaves, often used in soups and roasts" },
+    { word: "PEPPER", hint: "Common table seasoning that adds a bit of heat and kick" },
+    { word: "PAPRIKA", hint: "Red powder made from dried peppers, popular in Hungarian cuisine" },
+    { word: "ROSEMARY", hint: "Aromatic herb with needle-like leaves, perfect with lamb and potatoes" }
+  ]
+},
+{
+  category: "Cats",
+  emojis: ['🐱', '🐈', '😺', '🧶', '🐾', '😸', '🐈‍⬛', '💤'],
+  words: [
+    { word: "MEOW", hint: "The signature sound a cat makes to communicate" },
+    { word: "FURRY", hint: "Covered in soft, fluffy hair perfect for petting" },
+    { word: "KITTEN", hint: "A baby cat, playful and full of energy" },
+    { word: "WHISKER", hint: "Long sensory hairs on a cat's face that help them navigate" },
+    { word: "KNEADING", hint: "When a cat pushes its paws in and out on a soft surface, like making biscuits" }
+  ]
+},
+{
+  category: "Dogs",
+  emojis: ['🐕', '🦴', '🐾', '🐶', '🎾', '🐕‍🦺', '🦮', '❤️'],
+  words: [
+    { word: "BONE", hint: "A favorite chew treat that dogs love to gnaw on" },
+    { word: "HOUND", hint: "A type of dog bred for hunting, known for its keen sense of smell" },
+    { word: "BEAGLE", hint: "Friendly breed with floppy ears, famous for its nose and howl" },
+    { word: "SERVICE", hint: "A trained dog that assists people with disabilities" },
+    { word: "AIREDALE", hint: "The largest terrier breed, often called the 'King of Terriers'" }
+  ]
+},
+{
+  category: "At the Office",
+  emojis: ['💼', '🏢', '💻', '📊', '☕', '📋', '🖨️', '📧'],
+  words: [
+    { word: "TEAM", hint: "A group of coworkers who collaborate together on projects" },
+    { word: "STAFF", hint: "The employees who work at a company or organization" },
+    { word: "AGENCY", hint: "A business that provides specialized services for clients" },
+    { word: "MANAGER", hint: "The person who oversees a department or group of employees" },
+    { word: "BUSINESS", hint: "A commercial organization that sells goods or services" }
+  ]
+},
+{
+  category: "In the Kitchen",
+  emojis: ['👨‍🍳', '🍳', '🥘', '🔪', '🧑‍🍳', '🍴', '🥄', '♨️'],
+  words: [
+    { word: "SINK", hint: "Basin with a faucet where you wash dishes and rinse food" },
+    { word: "STOVE", hint: "Appliance with burners used for cooking food in pots and pans" },
+    { word: "RECIPE", hint: "Written instructions that tell you how to prepare a dish" },
+    { word: "CUPBOARD", hint: "Cabinet where you store dishes, glasses, and dry goods" },
+    { word: "COOKWARE", hint: "Pots, pans, and other equipment used for preparing meals" }
+  ]
+},
+{
+  category: "Social Media",
+  emojis: ['📱', '👍', '💬', '📸', '🔔', '❤️', '🔄', '📲'],
+  words: [
+    { word: "LIKE", hint: "A quick tap to show you enjoy someone's post" },
+    { word: "VIRAL", hint: "When content spreads rapidly across the internet" },
+    { word: "ENGAGE", hint: "To interact with content by commenting, sharing, or reacting" },
+    { word: "COMMENT", hint: "A written response left beneath a post or video" },
+    { word: "PLATFORM", hint: "A website or app where users share content, like Instagram or TikTok" }
+  ]
+}
 ];
 
 // Get a random puzzle
