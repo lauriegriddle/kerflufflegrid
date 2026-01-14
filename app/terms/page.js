@@ -23,7 +23,7 @@ export default function TermsPage() {
         <h1 className="text-3xl font-bold text-amber-400 mb-6">Terms of Service</h1>
         
         <div className="prose prose-invert prose-slate max-w-none space-y-6 text-slate-300">
-          <p className="text-sm text-slate-400">Last updated: December 2024</p>
+          <p className="text-sm text-slate-400">Last updated: January 14, 2026</p>
           
           <section>
             <h2 className="text-xl font-semibold text-amber-400 mt-6 mb-3">Welcome to Kerflufflegrid!</h2>
@@ -55,6 +55,13 @@ export default function TermsPage() {
               by intellectual property laws. The game name, logo, and visual design are our property.
             </p>
           </section>
+
+          <section>
+          <h2 className="text-xl font-semibold text-amber-400 mt-6 mb-3">Fictional Content</h2>
+          <p>
+            Kerflufflegrid, including the Letter Griddle Cafe, the town of Griddle Falls, the Trivia Crew characters, and all related stories, vignettes, and recipes, is a work of fiction. All characters, locations, and events are products of the creator&apos;s imagination. Any resemblance to actual persons, living or dead, businesses, events, or locales is entirely coincidental.
+          </p>
+        </section>
 
           <section>
             <h2 className="text-xl font-semibold text-amber-400 mt-6 mb-3">Disclaimer</h2>
